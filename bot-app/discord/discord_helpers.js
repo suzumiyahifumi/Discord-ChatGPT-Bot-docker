@@ -1,6 +1,5 @@
 import { EmbedBuilder, AttachmentBuilder } from 'discord.js'
 
-import stableDiffusion from '../stablediffusion/stableDiffusion.js';
 
 export const MAX_RESPONSE_CHUNK_LENGTH = 1500
 

@@ -6,7 +6,7 @@ import { splitAndSendResponse, MAX_RESPONSE_CHUNK_LENGTH } from './discord/disco
 import Conversations from './chatgpt/conversations.js'
 import { EmbedBuilder  } from 'discord.js'
 import Keyv from 'keyv'
-const keyv = new Keyv(process.env.MESSAGE_STORE_KEYV);
+const keyv = new Keyv(`mongodb://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}:/${process.env.DB_NAME}?authSource=admin`);
 
 async function main() {
 	await initChatGPT({
@@ -16,7 +16,7 @@ async function main() {
 		process.exit()
 	})
 
-	await initDiscordCommands()
+//	await initDiscordCommands()
 
 	const client = new Client({
 		intents: [

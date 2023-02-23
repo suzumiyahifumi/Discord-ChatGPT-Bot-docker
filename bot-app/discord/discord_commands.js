@@ -1,6 +1,5 @@
 import { REST, Routes, AttachmentBuilder } from 'discord.js'
 
-import stableDiffusion from '../stablediffusion/stableDiffusion.js';
 import Conversations from '../chatgpt/conversations.js'
 import { askQuestion } from '../chatgpt/chatgpt.js';
 import { generateInteractionReply } from './discord_helpers.js';
