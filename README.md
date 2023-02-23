@@ -59,12 +59,10 @@ ChatGPT(私訊的)： 知道，你是豆皮。
    
 工具說明：
 
-1. Docker
-   [Docker](https://zh.wikipedia.org/zh-tw/Docker) 是一個虛擬容器環境。使用 Windows / Mac 的用戶請下載 [Docker-Desktop](https://www.docker.com/)。
+1. [Docker](https://zh.wikipedia.org/zh-tw/Docker) 是一個虛擬容器環境。使用 Windows / Mac 的用戶請下載 [Docker-Desktop](https://www.docker.com/)。
    Docker 允許我幫你們寫好配置文件，你們只需要在本地設定基本參數即可運行！
 
-2. Discord
-   [Discord](https://zh.wikipedia.org/zh-tw/Discord) 原本是一款給工程師用的語音軟體，現在已經是許多遊戲愛好者使用的交友軟體了！請在[官網下載](https://discord.com/)，可以順便下載手機 app 方便你跟機器人聊天。
+2. [Discord](https://zh.wikipedia.org/zh-tw/Discord) 原本是一款給工程師用的語音軟體，現在已經是許多遊戲愛好者使用的交友軟體了！請在[官網下載](https://discord.com/)，可以順便下載手機 app 方便你跟機器人聊天。
 
 3. [Discord Bot Token](https://discord.com/developers/applications) 是每個想要架 DC 機器人都需要有的鑰匙！你可以在前往官網申請！
    
@@ -97,7 +95,7 @@ ChatGPT(私訊的)： 知道，你是豆皮。
 
 4. [OpenAI API Key](https://platform.openai.com/account/api-keys)，這組鑰匙可以讓你連接你的 ChatGPT ，請保管好不要給他人使用！
 
-	步驟 1. 點擊這個連結[連結](https://platform.openai.com/account/api-keys)申請，登入你的帳號
+	步驟 1. 點擊這個[連結](https://platform.openai.com/account/api-keys)申請，登入你的帳號
 	步驟 2. 點擊 Create new secret key，複製下 Key。
 	![](./screenshoot/OPENAI_1.png) 
 	完成！
