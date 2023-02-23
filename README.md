@@ -87,6 +87,10 @@ ChatGPT(私訊的)： 知道，你是豆皮。
 	步驟 9. 把機器人加入自己的伺服器，點擊左側 OAuth2 ，點 URL Generator。
 	勾起 `bot` ，下面的 `Administrator` 自己決定要不要給管理權限。
 	選完後下方會出現要請連結，複製後用新的瀏覽器分頁開啟並加入。
+	或者修改使用下面這串 URL（[參考資料](https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links)）：
+	```
+	https://discord.com/api/oauth2/authorize?client_id=[你的機器人id]&permissions=8&scope=bot
+	```
 	![](./screenshoot/Discord_9.png) 
 	![](./screenshoot/Discord_10.png) 
 	完成 Token 申請！
