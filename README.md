@@ -144,9 +144,14 @@ windows 用戶可以對著本專案資料夾任意空白處 ```shift + 右鍵```
 ```console
 PS ~\Discord-ChatGPT-Bot-docker> docker-compose up
 ```
-如果不想看到一堆雜七雜八的東西可以用 ```docker-compose up -d``` 讓它在背景跑。
+如果不想看到一堆雜七雜八的東西可以用 ```docker-compose up -d``` 讓它在背景跑。建議第一次啟動使用 ```docker-compose up```
 
 等它跑完應該就部屬完成了，去找你的機器人聊天吧！
 
 想要關閉機器人請輸入 ```docker-compose down``` 關閉。
 如果卡在執行面版，請按 ```ctrl + C``` 退出並關閉。
+
+成功建置的話，打開 `Docker-Desktop` 記可以看到他正在運行。
+之後可以在 `Docker-Desktop` 中控制開關。在 `Container` 中你會看到 `discord-chatgpt-bot-docker` 後面有 `暫停` 與 `起動` 按鈕。
+
+![](./screenshoot/Docker_1.png)
