@@ -155,3 +155,8 @@ PS ~\Discord-ChatGPT-Bot-docker> docker-compose up
 之後可以在 `Docker-Desktop` 中控制開關。在 `Container` 中你會看到 `discord-chatgpt-bot-docker` 後面有 `暫停` 與 `起動` 按鈕。
 
 ![](./screenshoot/Docker_1.png)
+
+點開 `discord-chatgpt-bot-docker` 後可以點 `app-1` 會跳出後台可以查看。
+
+![](./screenshoot/Docker_2.png)
+![](./screenshoot/Docker_3.png)
