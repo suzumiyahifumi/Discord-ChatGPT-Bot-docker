@@ -136,7 +136,7 @@ OPENAI_API_KEY=dt-fjhi3OhoehUpwQ07m62mmo9amowYWiahf82ma9vojsDojOF7d
 CONVERSATION_MEMORY_SECONDS=86400
 ```
 
-接下來開啟我們要開啟終端機，如果你有在寫程式，可以用自己喜歡的終端機。
+接下來我們開啟終端機，如果你有在寫程式，可以用自己喜歡的終端機。
 
 windows 用戶可以對著本專案資料夾任意空白處 ```shift + 右鍵``` 你會看到 ```在這裡開啟 powershell 視窗(S)``` 點下去。
 
