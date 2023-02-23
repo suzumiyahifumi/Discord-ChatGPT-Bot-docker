@@ -1,0 +1,27 @@
+{
+  "name": "Discord-ChatGPT-BOT-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "suzumiyahifumi",
+  "license": "MIT",
+  "dependencies": {
+    "@keyv/mongo": "^2.1.8",
+    "chatgpt": "^4.4.1",
+    "cross-fetch": "^3.1.5",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "keyv": "^4.5.2",
+    "node-fetch": "^3.3.0",
+    "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
