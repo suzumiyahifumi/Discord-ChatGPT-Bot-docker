@@ -3,7 +3,7 @@
 ### 簡介
 這個專案是由 [Discord-ChatGPT-Bot](https://github.com/onury5506/Discord-ChatGPT-Bot) 分支出來的！
 
-最近 ChatGPT 非常熱門，但也常常當機！或許你可可試試使用自己的 GPT 機器人！
+最近 ChatGPT 非常熱門，但也常常當機！或許你可以試試使用自己的 GPT 機器人！
 使用這個 Docker 可以幫你節省時間快速在 Discord 架起自己的 GPT 機器人！
 
 當然你有權利把自己的機器人加入到自己的伺服器跟它聊天，但當你要使用本專案時請注意查看說明！
