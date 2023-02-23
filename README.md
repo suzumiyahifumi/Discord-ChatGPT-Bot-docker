@@ -120,6 +120,7 @@ winsows 請在檔案管理員裡面勾起顯示
 開始把各設定 `=` 後面的參數換成你的，注意中間都沒有空格。
 完成後儲存關閉檔案。
 ```yml
+#填入你喜歡的資料庫帳號
 MONGODB_USER=root
 #填入你喜歡的資料庫密碼
 MONGODB_PASSWORD=123456
@@ -137,7 +138,7 @@ CONVERSATION_MEMORY_SECONDS=86400
 
 接下來開啟我們要開啟終端機，如果你有在寫程式，可以用自己喜歡的終端機。
 
-windows 用戶可以對著本專案資料夾任意空白處 ```shift+右鍵``` 你會看到 ```在這裡開啟 powershell 視窗(S)``` 點下去。
+windows 用戶可以對著本專案資料夾任意空白處 ```shift + 右鍵``` 你會看到 ```在這裡開啟 powershell 視窗(S)``` 點下去。
 
 接著輸入 ```docker-compose up``` ，下面這是示意圖。
 ```console
