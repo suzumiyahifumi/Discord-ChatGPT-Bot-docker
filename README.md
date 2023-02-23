@@ -113,6 +113,7 @@ winsows 請在檔案管理員裡面勾起顯示
 ![](./screenshoot/windows_1.png)
 
 看到 ```.env.example``` 請複製一份或者直接改名為 ```.env```
+
 ![](./screenshoot/list_1.png)
 
 使用任何的編輯器，例如 筆記本、Notepad、Notepad++ 等開啟 ```.env```
