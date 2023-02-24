@@ -41,7 +41,7 @@ ChatGPT(私訊的)： 知道，你是豆皮。
 
 或者，你也可以用著種方法把別人的對話接到自己的私訊中，當你想回到猛一句時，不要忘記用 `回覆` 功能。
 
-![](./screenshoot/GPT_1.png)
+![](./screenshot/GPT_1.png)
 
 ##### 開啟新的對話
 使用 `..reset` 或 `...reset` 開啟全新的對話。
@@ -69,35 +69,35 @@ ChatGPT(私訊的)： 知道，你是豆皮。
 
 	步驟 1. 登入DC
 
-	![申請](./screenshoot/Discord_1.png)
+	![申請](./screenshot/Discord_1.png)
 
 	步驟 2. 點擊右上的 New Application
 
-	![](./screenshoot/Discord_2.png) 
+	![](./screenshot/Discord_2.png) 
 
 	步驟 3. 幫機器人服務取名字
 
-	![](./screenshoot/Discord_3.png) 
+	![](./screenshot/Discord_3.png) 
 
 	步驟 4. 點進你剛剛新增的應用服務
 
-	![](./screenshoot/Discord_4.png)
+	![](./screenshot/Discord_4.png)
 
 	步驟 5. 看到這格畫面後請點左邊的 Bot 按鈕
 
-	![](./screenshoot/Discord_5.png) 
+	![](./screenshot/Discord_5.png) 
 
 	步驟 6. 進入後幫你的機器人取名字改頭貼
 
-	![](./screenshoot/Discord_6.png) 
+	![](./screenshot/Discord_6.png) 
 
 	步驟 7. 完成後點擊 View Token，然後按 Copy
 
-	![](./screenshoot/Discord_7.png) 
+	![](./screenshot/Discord_7.png) 
 
 	步驟 8. 往下滑除了 `Requires OAuth2 Code Grant` 以外，全部都把開關打開，第一個開關自己斟酌，如下圖。
 
-	![](./screenshoot/Discord_8_1.png) 
+	![](./screenshot/Discord_8_1.png) 
 
 	步驟 9. 把機器人加入自己的伺服器，點擊左側 OAuth2 ，點 URL Generator。
 
@@ -109,9 +109,9 @@ ChatGPT(私訊的)： 知道，你是豆皮。
 	https://discord.com/api/oauth2/authorize?client_id=[你的機器人id]&permissions=8&scope=bot
 	```
 
-	![](./screenshoot/Discord_9.png) 
+	![](./screenshot/Discord_9.png) 
 
-	![](./screenshoot/Discord_10.png) 
+	![](./screenshot/Discord_10.png) 
 	完成 Token 申請！
 
 4. [OpenAI API Key](https://platform.openai.com/account/api-keys)，這組鑰匙可以讓你連接你的 ChatGPT ，請保管好不要給他人使用！
@@ -119,7 +119,7 @@ ChatGPT(私訊的)： 知道，你是豆皮。
 	步驟 1. 點擊這個[連結](https://platform.openai.com/account/api-keys)申請，登入你的帳號
 	步驟 2. 點擊 Create new secret key，複製下 Key。
 
-	![](./screenshoot/OPENAI_1.png) 
+	![](./screenshot/OPENAI_1.png) 
 	完成！
 
 #### Step 2. 配置環境參數
@@ -133,11 +133,11 @@ Mac 請使用快捷鍵 ```Shift + Command + .```
 
 winsows 請在檔案管理員裡面勾起顯示
 
-![](./screenshoot/windows_1.png)
+![](./screenshot/windows_1.png)
 
 看到 ```.env.example``` 請複製一份或者直接改名為 ```.env```
 
-![](./screenshoot/list_1.png)
+![](./screenshot/list_1.png)
 
 使用任何的編輯器，例如 筆記本、Notepad、Notepad++ 等開啟 ```.env```
 開始把各設定 `=` 後面的參數換成你的，注意中間都沒有空格。
@@ -177,9 +177,9 @@ PS ~\Discord-ChatGPT-Bot-docker> docker-compose up
 成功建置的話，打開 `Docker-Desktop` 記可以看到他正在運行。
 之後可以在 `Docker-Desktop` 中控制開關。在 `Container` 中你會看到 `discord-chatgpt-bot-docker` 後面有 `暫停` 與 `起動` 按鈕。
 
-![](./screenshoot/Docker_1.png)
+![](./screenshot/Docker_1.png)
 
 點開 `discord-chatgpt-bot-docker` 後可以點 `app-1` 會跳出後台可以查看。
 
-![](./screenshoot/Docker_2.png)
-![](./screenshoot/Docker_3.png)
+![](./screenshot/Docker_2.png)
+![](./screenshot/Docker_3.png)
