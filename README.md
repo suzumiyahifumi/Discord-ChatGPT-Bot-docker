@@ -81,7 +81,7 @@ ChatGPT(私訊的)： 知道，你是豆皮。
 	步驟 7. 完成後點擊 View Token，然後按 Copy
 	![](./screenshoot/Discord_7.png) 
 	步驟 8. 往下滑除了 `Requires OAuth2 Code Grant` 以外，全部都把開關打開，第一個開關自己斟酌，如下圖。
-	![](./screenshoot/Discord_8.png) 
+	![](./screenshoot/Discord_8_1.png) 
 	步驟 9. 把機器人加入自己的伺服器，點擊左側 OAuth2 ，點 URL Generator。
 	勾起 `bot` ，下面的 `Administrator` 自己決定要不要給管理權限。
 	選完後下方會出現要請連結，複製後用新的瀏覽器分頁開啟並加入。
