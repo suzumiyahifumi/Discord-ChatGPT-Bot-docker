@@ -104,7 +104,7 @@ ChatGPT(私訊的)： 知道，你是豆皮。
 可以從[這裡](https://github.com/suzumiyahifumi/Discord-ChatGPT-Bot-docker/releases)下載我整理好的配置文件跟程式碼。
 之後請照著說明填寫配置文件！
 
-下載後在跟資料夾有一個名為 ```.env.example``` 的檔案。
+下載後在根資料夾有一個名為 ```.env.example``` 的檔案。
 它是一個隱藏檔案，如果看不到表示你的電腦需要開啟顯示隱藏檔案。
 
 Mac 請使用快捷鍵 ```Shift + Command + .```
