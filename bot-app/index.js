@@ -61,7 +61,7 @@ async function main() {
 
 			if (contentMsg.toLowerCase() == "reset") {
 				Conversations.resetConversation(user.id)
-				user.send("ㄟ？！你...你是...誰？")
+				message.reply("ㄟ？！你...你是...誰？")
 				return;
 			}
 
