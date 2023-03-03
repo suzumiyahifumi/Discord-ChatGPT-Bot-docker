@@ -37,7 +37,7 @@ async function main() {
 
 	client.on("messageCreate", async message => {
 		let contentMsg = message.content.toLowerCase();
-		if (contentMsg.startsWith("..") || contentMsg.startsWith("...")) {
+		if (contentMsg.startsWith("..") || contentMsg.startsWith("...") || message.guild == null) {
 
 			let isServer = (contentMsg.startsWith("...") && message.guild) ? true : false ;
 
